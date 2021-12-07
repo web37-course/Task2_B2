@@ -47,7 +47,7 @@ let hundreds = [
     {name: "девятьсот", number: 9}
 ];
 
-let input = 711;
+let input = 45;
 
 let translation = [];
 
@@ -103,7 +103,7 @@ if(input.length == 2 && +input[0] == 1 && +input[1] > 0){
 }
 
 if(input.length == 2 && +input[0] != 1 && +input[1] > 0){
-    translation.push(ranslateTens(0), translateOnes(1))
+    translation.push(translateTens(0), translateOnes(1))
     console.log(translation);
 }
 
